@@ -1,41 +1,5 @@
 
 
-java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(ï¹°Õıÿÿÿÿ8ÙŞòÎ“2J$eebcb338-11f3-45f0-8f0e-d1bb53811c85
-w
-java:S1611"/Remove the parentheses around the "i" parameter(ï¹°Õıÿÿÿÿ8ÚŞòÎ“2J$90999580-2558-4c3e-82cb-e55b1ef5bf92
-¤
-java:S4276	"\Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Integer>'(¡”Ì¸ùÿÿÿÿ8ÚŞòÎ“2J$caa504d9-b298-4cf1-ba96-722a1887566f
-w
-java:S1611	"/Remove the parentheses around the "i" parameter(¡”Ì¸ùÿÿÿÿ8ÚŞòÎ“2J$8bd41089-4165-4071-95fa-6822ec2c33f2
-
-java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ô¬«Óùÿÿÿÿ8ÚŞòÎ“2J$f8d0747f-3d12-47e2-90a5-589e323481a5
-m	java:S106"+Replace this use of System.out by a logger.(†¨ı¹8ÚŞòÎ“2J$5f42bfda-a7b8-4c08-93eb-500794859c9d
-
-java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ë¶ÿØşÿÿÿÿ8ÚŞòÎ“2J$201807c0-cf2a-40a9-b79d-a63a84c0585f
-r	java:S106"+Replace this use of System.out by a logger.(ì·ş§øÿÿÿÿ8ÚŞòÎ“2J$496a29d8-bc03-4b5b-a2c7-3b1423613744
-¥
-java:S4276"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(…¤³¢ûÿÿÿÿ8´éüÎ“2J$e08cfd8f-46dd-47a2-9573-49962407540c
-s
-java:S1481"+Remove this unused "sumsum" local variable.(…¤³¢ûÿÿÿÿ8´éüÎ“2J$f6c7544e-0e5a-445c-a6df-2f89e1311fb1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8÷ğÉ¨”2
 r
-java:S1611"/Remove the parentheses around the "i" parameter(Ëöè¦8ÚŞòÎ“2J$7d4d2c79-444f-40c1-827a-1866447f9ae2
-m	java:S106"+Replace this use of System.out by a logger.(Ëöè¦8ÚŞòÎ“2J$55342a3b-a458-40fa-9fa0-059c8130818d
-™
-java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(´¢¦Šúÿÿÿÿ8ÚŞòÎ“2J$5c43c4ac-9064-467f-87fd-25eff1bc1852
-r	java:S106"+Replace this use of System.out by a logger.(Ó¹ÇÙúÿÿÿÿ8ÚŞòÎ“2J$0046f89b-a8a0-40d1-bc42-b5d2f213c37d
-z
-java:S1611"2Remove the parentheses around the "name" parameter(¶ßšşÿÿÿÿ8ÚŞòÎ“2J$0acc76e2-2399-4297-848c-34fd494cba41
-m	java:S106 "+Replace this use of System.out by a logger.(İ½ÁÁ8ÚŞòÎ“2J$52446c6a-6bc9-4400-bce9-2188d2e9e657
-r	java:S106!"+Replace this use of System.out by a logger.(–÷Éıÿÿÿÿ8ÚŞòÎ“2J$d77ae22b-15d8-465c-8611-e313697d417e
-™
-java:S4276&"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ì†üÿ8¤÷Î“2J$d2f6d2d0-3f9e-43d6-bc34-e6512a8d3efe
-~	java:S125$"<This block of commented-out lines of code should be removed.(ÍâÊô8‡ı÷Î“2J$5fed58bb-f9fc-4c28-aa72-3541dabf8d8d
-r
-java:S1611&"/Remove the parentheses around the "i" parameter(Ì†üÿ8’¤÷Î“2J$867a6a6a-bec3-4952-b174-1e8a499d49a3
-p
-java:S1481&"-Remove this unused "samesame" local variable.(Ì†üÿ8“¤÷Î“2J$cb557359-5772-4b3d-ba2d-613a9bd99545
-š
-java:S4276+"WRefactor this code to use the more specialised Functional Interface 'IntBinaryOperator'(â‡ˆû8ªØıÎ“2J$9f895941-0b99-463a-b697-5a7681827a53
-~	java:S125)"<This block of commented-out lines of code should be removed.(áÁ°ú8ªØıÎ“2J$b262a3cd-c403-432b-b48b-a864e9572f3e
-r
-java:S1481+"/Remove this unused "sumsumsame" local variable.(â‡ˆû8Ü›ÿÎ“2J$9bf5d217-426d-40b0-888e-a7f8f3b68a1e
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿8™ˆØ§”2J$c1e457d3-b8a3-4213-88ee-8b4e3217e76b

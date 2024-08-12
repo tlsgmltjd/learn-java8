@@ -5,3 +5,15 @@ S
 +src/main/java/org/example/RunSomething.java,7/2/7287e119e1c52e8b5891cef29557ca6ec9fbbcc8
 S
 #src/main/java/org/example/Plus.java,c/b/cbbf99935b80ee03651aa67c66b97121145e6017
+W
+'src/main/java/org/example/Greeting.java,e/e/ee0eb4c3322a7a679eaef3781973f8c437a0ae0d
+R
+"src/main/java/org/example/Fee.java,0/f/0f21420b6e0db0e6e28b7a01fd18a728f1d5f055
+R
+"src/main/java/org/example/Foo.java,0/9/09da5130076bcecfcf81a673a277945b379fc960
+V
+&src/main/java/org/example/FooImpl.java,3/f/3fea2cde8da2efba9d455bb5378778d9720665fb
+W
+'src/main/java/org/example/FooImpl2.java,9/a/9aa359c2f4b3342359d6bc85cd1484ab24a43514
+R
+"src/main/java/org/example/Bar.java,d/e/dea3a7ce43e35848e06a72119c93277b1c69bd76
