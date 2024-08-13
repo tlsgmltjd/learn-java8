@@ -17,3 +17,5 @@ W
 'src/main/java/org/example/FooImpl2.java,9/a/9aa359c2f4b3342359d6bc85cd1484ab24a43514
 R
 "src/main/java/org/example/Bar.java,d/e/dea3a7ce43e35848e06a72119c93277b1c69bd76
+S
+#src/main/java/org/example/Book.java,6/f/6f85d554adeed1f79271c7e4f495a261e5728621
