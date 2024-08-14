@@ -1,0 +1,20 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à®ÉÅ8øîà•2J$9aa83701-550d-4750-b381-adb064e284ce
+m	java:S106"+Replace this use of System.out by a logger.(ô±Ê8šïà•2J$3fc8059d-93a0-4cfe-ae13-0e3885cd81b7
+ƒ	java:S125$"<This block of commented-out lines of code should be removed.(œ²©µøÿÿÿÿ8¢ïà•2J$e18f6341-7a5c-4ab4-9972-8d83cd864f82
+r	java:S106'"+Replace this use of System.out by a logger.(Öƒñüÿÿÿÿ8¢ïà•2J$dae6295e-f778-48c7-853e-76687854bc7c
+u
+java:S1481+"-Remove this unused "realBook" local variable.(‰„ Òûÿÿÿÿ8£ïà•2J$32de5b22-5304-4190-8412-7cb0ca6cd713
+ˆ
+java:S1612."@Replace this lambda with method reference 'Book::createNewBook'.(ÎìÏ›ùÿÿÿÿ8£ïà•2J$e45c38a1-1f4d-492b-a7cd-2c6dbe094364
+v
+java:S1481.".Remove this unused "realBook2" local variable.(ÎìÏ›ùÿÿÿÿ8£ïà•2J$6c89c7da-1b2f-4f90-8b83-e7340591cd66
+q
+java:S14811".Remove this unused "realBook3" local variable.(ïª²×8£ïà•2J$2c5220ba-1881-42a3-8eef-ee92a1a14ce5
+m	java:S1065"+Replace this use of System.out by a logger.(æ¼ëú8£ïà•2J$74a1a2c7-0bd2-4c5d-992c-469f3a9fdb87
+|
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8£ïà•2J$c340f3f5-1ec3-4bdf-b96f-fbb668376076
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8£ïà•2J$6d92e650-c041-43ef-8e18-0c9008f5e5fe
+w
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8£ïà•2J$e5db87dc-d5d8-4278-91ee-b8e6a8d912dc

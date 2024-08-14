@@ -8,6 +8,14 @@ public class Book {
     private boolean isSold;
     private Tag tag;
 
+    public static Book createNewBook() {
+        System.out.println("create new book");
+        return new Book();
+    }
+
+    public Book() {
+    }
+
     public Book(Long id, String title, boolean isSold) {
         this.id = id;
         this.title = title;
