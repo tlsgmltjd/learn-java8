@@ -1,29 +1,54 @@
 package org.example;
 
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
-        Date date = new Date();
-        Calendar calendar = new GregorianCalendar();
-        SimpleDateFormat dateFormat = new SimpleDateFormat();
+        // Instant, 현재 시간을 기계 시간으로 표현하는 방법
+        Instant instant = Instant.now();
+        System.out.println(instant); // 기준시 UTC, GMT 영국 그리니치 천문대 시간
 
-        long time = date.getTime();
-        System.out.println(date);
-        System.out.println(time);
+        ZonedDateTime zonedDateTime = instant.atZone(ZoneId.systemDefault());
+        System.out.println(zonedDateTime);
 
-        Thread.sleep(1000 * 3);
-        Date after3Sec = new Date();
-        System.out.println(after3Sec);
-        after3Sec.setTime(time);
-        System.out.println(after3Sec);
+        // LocalDateTime 인류용 시간 표현 클래스
+        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime of = LocalDateTime.of(2007, Month.MARCH, 1, 0, 0, 0);
 
-// java.util.Date는 Mutable하다 = 객체의 상태를 바꿀 수 있다.
-// Thread safe하지 않다.
+        ZonedDateTime nowInKR = ZonedDateTime.now(ZoneId.of("Asia/Seoul"));
+        System.out.println(nowInKR);
 
-        // GregorianCalendar의 생성자 파라미터에 month는 0이 1월이라 버그 발생의 여지가 있다. type safe하지 않다.
-        Calendar calendar2 = new GregorianCalendar(2007, Calendar.APRIL, 1);
+        // 기간 Period, Duration
+        LocalDate today = LocalDate.now();
+        LocalDate nextYearBirthday = LocalDate.of(2025, Month.MARCH, 1);
+
+        Period period = Period.between(today, nextYearBirthday);
+        System.out.println(period.getMonths() + " " + period.getDays());
+
+        Period until = today.until(nextYearBirthday);
+        System.out.println(until.get(ChronoUnit.DAYS));
+
+        Instant iNow = Instant.now();
+        Instant iPlus = iNow.plus(10, ChronoUnit.SECONDS);
+        Duration between = Duration.between(iNow, iPlus);
+
+        System.out.println(between.getSeconds());
+
+        // MMddyyyy 포메팅 & 파싱
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter MMddyyyy = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        System.out.println(dateTime.format(MMddyyyy));
+
+        LocalDate parse = LocalDate.parse("03/01/2007", MMddyyyy);
+        System.out.println(parse);
+
+        // 레거시 API 지원
+        // 여러 시간 관련 타입들이 상호 변환 가능하다
+
 
     }
 

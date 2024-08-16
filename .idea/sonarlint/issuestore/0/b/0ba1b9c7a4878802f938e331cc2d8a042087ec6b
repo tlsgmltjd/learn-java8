@@ -1,14 +1,16 @@
 
-
-java:S2184"FCast one of the operands of this multiplication operation to a "long".(æÓ Öıÿÿÿÿ8úŒõÕ•2J$5cc222e3-37d7-4041-b678-c93403d8bfde
-u
-java:S1481	"-Remove this unused "calendar" local variable.(û¡ÿşÿÿÿÿ8ŒõÕ•2J$f7f7be74-5059-4dac-a1f0-769ef6a4aecb
-w
-java:S1481
-"/Remove this unused "dateFormat" local variable.(ÌİÑÈşÿÿÿÿ8ŒõÕ•2J$1fde27b7-3ce2-447d-a022-038842b9d313
-m	java:S106"+Replace this use of System.out by a logger.(²¨ç÷8õÕ•2J$5ca6d786-68ff-4c85-84f0-480fa9275a19
-r	java:S106"+Replace this use of System.out by a logger.(ûÛÏçùÿÿÿÿ8õÕ•2J$31140155-e4b4-45a8-a966-2467165e7205
-m	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2J$a9952e23-043d-411e-a571-709530fe2041
-m	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2J$73608e9d-3c46-466a-9ddb-0a0219a791e4
-P
-java:S1481".Remove this unused "calendar2" local variable.(ô…ãıÿÿÿÿ8µŞõÕ•2
+˜	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôü·Öüÿÿÿÿ8ÙıÁÖ•2J$ccc1602a-142c-48fe-8b87-6e43582cdbbd
+r	java:S106"+Replace this use of System.out by a logger.(Ù‹Şøúÿÿÿÿ8ııÁÖ•2J$e682bc0a-f2e8-4d2b-9633-6b73263c8329
+r	java:S106"+Replace this use of System.out by a logger.(Ğò”úÿÿÿÿ8ııÁÖ•2J$d660d7d5-acc0-4f28-9bf9-53c5ae894b0a
+p
+java:S1481"(Remove this unused "now" local variable.(ÃÅøûÿÿÿÿ8ııÁÖ•2J$02c894da-453a-4ec6-97e3-68a8296ab4e2
+j
+java:S1481"'Remove this unused "of" local variable.(«Â¶€8şıÁÖ•2J$4d6ac498-17e0-43c4-b471-e45e2eb21597
+r	java:S106"+Replace this use of System.out by a logger.(ÄóöØùÿÿÿÿ8şıÁÖ•2J$0711ea1f-2f04-42e3-a2c6-627ec4bc9c73
+r	java:S106"+Replace this use of System.out by a logger.(ºàà‹ıÿÿÿÿ8ÿıÁÖ•2J$06af309e-7abb-4951-a400-cb6f52e541b3
+r	java:S106!"+Replace this use of System.out by a logger.(àêô£üÿÿÿÿ8€şÁÖ•2J$bde6dd82-f526-4780-bbe6-cf84f120912b
+l	java:S106'"+Replace this use of System.out by a logger.(šû€j8€şÁÖ•2J$d155530f-3b5f-4877-ad70-64e477af7546
+m	java:S106,"+Replace this use of System.out by a logger.(¸°Ü—8şÁÖ•2J$14ebe470-d453-4c68-ab38-ac04d91092c2
+r	java:S106/"+Replace this use of System.out by a logger.(Óï‹‘ùÿÿÿÿ8‚şÁÖ•2J$c5c9d16c-595b-4b87-a899-2f7acc7130bc
+i
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8‚şÁÖ•2J$11d062d1-77e9-440d-b3d1-9cb333745cc9
