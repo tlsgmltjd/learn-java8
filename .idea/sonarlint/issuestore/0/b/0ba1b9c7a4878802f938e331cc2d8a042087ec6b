@@ -1,12 +1,14 @@
 
-h
-java:S2184"FCast one of the operands of this multiplication operation to a "long".(æÓ Öıÿÿÿÿ8úŒõÕ•2
-O
-java:S1481	"-Remove this unused "calendar" local variable.(û¡ÿşÿÿÿÿ8ŒõÕ•2
-Q
+
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(æÓ Öıÿÿÿÿ8úŒõÕ•2J$5cc222e3-37d7-4041-b678-c93403d8bfde
+u
+java:S1481	"-Remove this unused "calendar" local variable.(û¡ÿşÿÿÿÿ8ŒõÕ•2J$f7f7be74-5059-4dac-a1f0-769ef6a4aecb
+w
 java:S1481
-"/Remove this unused "dateFormat" local variable.(ÌİÑÈşÿÿÿÿ8ŒõÕ•2
-G	java:S106"+Replace this use of System.out by a logger.(²¨ç÷8õÕ•2
-L	java:S106"+Replace this use of System.out by a logger.(ûÛÏçùÿÿÿÿ8õÕ•2
-G	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2
-G	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2
+"/Remove this unused "dateFormat" local variable.(ÌİÑÈşÿÿÿÿ8ŒõÕ•2J$1fde27b7-3ce2-447d-a022-038842b9d313
+m	java:S106"+Replace this use of System.out by a logger.(²¨ç÷8õÕ•2J$5ca6d786-68ff-4c85-84f0-480fa9275a19
+r	java:S106"+Replace this use of System.out by a logger.(ûÛÏçùÿÿÿÿ8õÕ•2J$31140155-e4b4-45a8-a966-2467165e7205
+m	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2J$a9952e23-043d-411e-a571-709530fe2041
+m	java:S106"+Replace this use of System.out by a logger.(Ëï»ã8õÕ•2J$73608e9d-3c46-466a-9ddb-0a0219a791e4
+P
+java:S1481".Remove this unused "calendar2" local variable.(ô…ãıÿÿÿÿ8µŞõÕ•2
