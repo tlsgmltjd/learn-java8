@@ -1,18 +1,16 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(´à·¶şÿÿÿÿ8ñ¿„ƒª2J$71efccae-2f00-4c88-9a26-42d85d09033b
-w
-java:S1611"/Remove the parentheses around the "s" parameter(ÎÒâùÿÿÿÿ8ò¿„ƒª2J$832ab2d8-cd21-4c25-8914-f3a2eaccc803
-r	java:S106"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8ò¿„ƒª2J$45ef5dc4-1642-4f1e-9825-6c16cf17db00
-r	java:S106"+Replace this use of System.out by a logger.(©¯Ñûÿÿÿÿ8ò¿„ƒª2J$90d5260f-8f8c-4065-b1c9-b54aef2be022
-r	java:S106"+Replace this use of System.out by a logger.(´à·¶şÿÿÿÿ8™Ëˆƒª2J$d53f880d-f7e2-48cb-8154-aa6172b4a337
-w
-java:S1611"/Remove the parentheses around the "s" parameter(êæÀÊÿÿÿÿÿ8™Ëˆƒª2J$295fea92-c923-479f-9b29-96d8bed4f397
-t
-java:S1602",Remove useless curly braces around statement(êæÀÊÿÿÿÿÿ8­Ä‰ƒª2J$49a7ea10-bbc1-49f0-891b-531129219f96
-r	java:S106"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8™Ëˆƒª2J$2893afc8-49da-48c6-82cb-b62f225e28f4
-r	java:S106"+Replace this use of System.out by a logger.(ùûÿÿÿÿ8šËˆƒª2J$736c2828-9636-41d8-a6ea-0df69d70c63a
-r	java:S106""+Replace this use of System.out by a logger.(´à·¶şÿÿÿÿ8óÖ‹ƒª2J$7866a354-a5ed-4642-9b1d-fc241edc77cf
-o
-java:S1602%",Remove useless curly braces around statement(óåÒ¥8öÖ‹ƒª2J$4fabce72-2373-4e25-af03-ac53b8630a27
-r	java:S106&"+Replace this use of System.out by a logger.(›Óğ°şÿÿÿÿ8÷Ö‹ƒª2J$c7870235-1ccd-44ca-be18-d4af844152ff
-r	java:S106)"+Replace this use of System.out by a logger.(è¦¯úÿÿÿÿ8øÖ‹ƒª2J$cbe7d140-91f0-4c53-9f31-0bd3c28aee5a
+r	java:S106"+Replace this use of System.out by a logger.(´à·¶şÿÿÿÿ8·©œª2J$071092a5-012d-45c5-8932-5de3812b2ba5
+L	java:S106"+Replace this use of System.out by a logger.(œ©‰ñÿÿÿÿÿ8•÷·œª2
+]	java:S125"<This block of commented-out lines of code should be removed.(Éı€ıúÿÿÿÿ8–÷·œª2
+Q
+java:S1611"4Remove the parentheses around the "result" parameter(°‹õ8–÷·œª2
+I
+java:S1602",Remove useless curly braces around statement(°‹õ8–÷·œª2
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(°‹õ8—÷·œª2
+L	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8—÷·œª2
+L	java:S106"+Replace this use of System.out by a logger.(Ûÿò¨ùÿÿÿÿ8—÷·œª2
+—
+java:S6204'"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ã¤£’8—÷·œª2
+L	java:S106)"+Replace this use of System.out by a logger.(ÆÂ†âşÿÿÿÿ8˜÷·œª2
+G	java:S106,"+Replace this use of System.out by a logger.(¥ÃÿÂ8˜÷·œª2

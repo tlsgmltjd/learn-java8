@@ -1,43 +1,50 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.stream.Collectors;
 
 public class CompletableFutureExample {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+        CompletableFuture<String> completableFuture = CompletableFuture.supplyAsync(() -> {
+            System.out.println("Hello! " + Thread.currentThread().getName());
+            return "HELLO";
+        });
 
-        // CompletableFuture 뒤에 then 메서드 체이닝으로 작업이 모두 처리되었을 때 콜백 함수로 실행해준다.
         CompletableFuture<String> completableFuture2 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Hello! " + Thread.currentThread().getName());
-            return "HELLO";
-            // 콜백함수의 반환값이 있을때 thenApply
-        }).thenApply((s) -> {
-            System.out.println(Thread.currentThread().getName());
-            return s.toLowerCase();
+            System.out.println("World! " + Thread.currentThread().getName());
+            return "WORLD";
         });
 
-        System.out.println(completableFuture2.get());
+//        CompletableFuture<String> combineFutures = completableFuture.thenCombine(completableFuture2, (h, w) -> h + " " + w);
+//        System.out.println(combineFutures.get());
+
+        // CompletableFuture.allOf(): 모든 task들이 끝나면 thenAccept를 실행한다.
+        // 여러 task들의 반환 타입이 일치할거라는 보장도 없고 task중에 예외가 발생할 수 있으므로 결과값이 의미가 없다. (null이 나온다)
+        CompletableFuture<Void> future = CompletableFuture.allOf(completableFuture, completableFuture2)
+                .thenAccept((result) -> {
+                    System.out.println(result);
+                });
+
+        System.out.println(future);
+
+        List<CompletableFuture<String>> futures = Arrays.asList(completableFuture, completableFuture2);
+        CompletableFuture[] futuresArray = futures.toArray(new CompletableFuture[futures.size()]);
+
+        CompletableFuture<List<String>> result = CompletableFuture.allOf(futuresArray)
+                .thenApply(v -> futures.stream()
+                        .map(CompletableFuture::join) // join도 blocking 하게되는데 un checked exception이니 예외처리 필수 X
+                        .collect(Collectors.toList()));
+
+        result.get().forEach(System.out::println);
+
+        CompletableFuture<Void> f = CompletableFuture.anyOf(completableFuture, completableFuture2)
+                .thenAccept(s -> System.out.println("--------- " + s));
+        f.get();
 
 
-        CompletableFuture<Void> completableFuture3 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Hello! " + Thread.currentThread().getName());
-            return "HELLO";
-            // 콜백함수의 반환값이 없을때 thenAccept
-        }).thenAccept((s) -> {
-            System.out.println(Thread.currentThread().getName());
-        });
-
-        System.out.println(completableFuture3.get());
-
-
-        CompletableFuture<Void> completableFuture4 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Hello! " + Thread.currentThread().getName());
-            return "HELLO";
-            // 콜백함수의 반환값이 없고 파라미터도 안받을때 thenRun
-        }).thenRun(() -> {
-            System.out.println(Thread.currentThread().getName());
-        });
-
-        System.out.println(completableFuture4.get());
     }
 }
+
