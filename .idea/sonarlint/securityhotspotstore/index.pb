@@ -15,3 +15,11 @@ W
 0src/main/java/org/example/CompletableFuture.java,2/a/2a87c8f468d1f4a5858dc687e77fa6e384630c4b
 g
 7src/main/java/org/example/CompletableFutureExample.java,6/6/664f4321d76c4a7ec32c4eab117b9b74eccc3dea
+Y
+)src/main/java/org/example/Annotation.java,0/d/0da309d606ade5b913d1354868b55d73c55baa40
+V
+&src/main/java/org/example/Chicken.java,b/0/b00f99a6b0b9a3af8385e8e700b59d82dea37a86
+`
+0src/main/java/org/example/ChickenContatiner.java,a/a/aa2dcbb027912e0cae92f00da0d389d666ac6d29
+_
+/src/main/java/org/example/ChickenContainer.java,c/8/c8a697d9c4a123df9fdc2f31309b3cf45e8c44b5
